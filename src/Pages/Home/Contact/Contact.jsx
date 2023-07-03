@@ -43,21 +43,21 @@ const Contact = () => {
                         <img className='w-12' src={phone} alt="" />
                         <div className=' space-y-1'>
                             <h3 className='font-bold text-white text-xl'>Phone</h3>
-                            <p className='text-gray-500'>+8801963496651</p>
+                            <p className='text-gray-500'>+881309142701</p>
                         </div>
                     </div>
                     <div className='bg-[#1d293a] my-4 rounded-tl-lg rounded-br-lg flex gap-5 py-5 px-5'>
                         <img className='w-12' src={email} alt="" />
                         <div className='space-y-1'>
                             <h3 className='font-bold text-white text-xl'>Email</h3>
-                            <p className='text-gray-500'>oliullah915@gmail.com</p>
+                            <p className='text-gray-500'>bilkishakther921@gmail.com</p>
                         </div>
                     </div>
                     <div className='bg-[#1d293a] rounded-tl-lg rounded-br-lg flex gap-3 lg:gap-5 py-5 p-5 w-full'>
                         <img className=' w-10 lg:w-12' src={location} alt="" />
                         <div className='space-y-1'>
                             <h3 className='font-bold text-white text-xl'>Location</h3>
-                            <p className='text-gray-500'>BancharamPur,BrahmanBaria,Bangladesh</p>
+                            <p className='text-gray-500'>Habiganj, Sylhet,Bangladesh</p>
                         </div>
                     </div>
                 </div>
@@ -71,13 +71,13 @@ const Contact = () => {
                     </div>
                     <div className="my-2">
                         <label className="label">
-                            <span className="font-semibold text-md text-white">Message</span>
+                            <span className="font-semibold text-md text-white">Email</span>
                         </label>
                         <input type="email" name="user_email" placeholder="Email" className=" border placeholder:text-lg text-white placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a]" />
                     </div>
                     <div className="mb-3">
                         <label className="label">
-                            <span className="font-semibold text-md text-white">Email</span>
+                            <span className="font-semibold text-md text-white">Message</span>
                         </label>
                         <textarea name="message" placeholder="Write Your Message" className="textarea border text-white placeholder:text-lg placeholder:font-semibold border-gray-500 p-3 rounded-lg w-full bg-[#1d293a] textarea-lg" ></textarea>
                     </div>
@@ -92,6 +92,8 @@ const Contact = () => {
                 <h4 className="[writing-mode:vertical-rl] bg-gray-600 p-1 rounded font-bold text-xl py-5 text-white uppercase">Contact me</h4>
                 <p className='font-bold -m-2 my-6 p-0 rotate-90 lg:text-4xl text-[#00cf5d]'>______</p>
             </div>
+
+          
         </div>
     );
 };

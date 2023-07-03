@@ -1,5 +1,5 @@
 import React from 'react';
-import myPic from '../../../assets/images/oli.png'
+import myPic from '../../../assets/images/contacts/joli.jpg'
 import Title from '../Title/Title';
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
             <div className=''>
                 <p className='text-white text-lg'>I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do. I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development.</p>
                 <div className='mt-9 flex justify-center lg:justify-start  gap-5'>
-            <a href="./oliullah resume.pdf" download className='secondary-btn-sm lg:secondary-btn'>Get Resume</a>
+            <a href="./Bilkish Akther of Resume.pdf" download className='secondary-btn-sm lg:secondary-btn'>Get Resume</a>
             <a href='#skills' className='primary-btn'>My Skills</a>
             </div>
             </div>
